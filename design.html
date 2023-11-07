@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <a href="#default" class="catalog-z">catalog-z</a>
+      <div class="header-right" id="myheader">
+        <a href="#Photos">Photos</a>
+        <a href="#Videos">Videos</a>
+        <a href="#About">About</a>
+        <a href="#Contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myheader");
+          if (x.className === "header-right") {
+            x.className += ".responsive";
+          } else {
+            x.className = "header";
+          }
+        }
+        </script>
+    </div>
+    <div class="card">
+      <div style="max-width: 400px; margin: auto">
+        <div class="search">
+          <img src="search.png" width="18px" />
+          <input class="input-field" placeholder="search" type="text" />
+        </div>
+      </div>
+    </div>
+    <div style="margin: 50px">
+      <div class="form">
+        <a class="Latest Videos">Latest Videos</a>
+        <div class="header-right">
+          <a class="page"><b>page</b></a>
+          <a class="1"><b>1 of</b></a>
+          <a class="180"><b>180</b></a>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="cardd">
+          <img src="eng.jpg" alt="image" class="img" />
+          <div class="container">
+            <span class="date">24 Oct 2000</span>
+            <span class="views">10,4600 views</span>
+          </div>
+        </div>
+        <div class="cardd">
+          <img src="sce.jpg" alt="image" />
+          <div class="container">
+            <span class="date">22 Oct 2000</span>
+            <span class="views">14,502 views</span>
+          </div>
+        </div>
+        <div class="cardd">
+          <img src="3.jpg" alt="image" />
+          <div class="container">
+            <span class="date">21 Oct 2000</span>
+            <span class="views">14,502 views</span>
+          </div>
+        </div>
+        <div class="cardd">
+          <img src="2.jpg" alt="image" />
+          <div class="container">
+            <span class="date">20 Oct 2001</span>
+            <span class="views">16,100 views</span>
+          </div>
+        </div>
+        <div class="cardd">
+          <img src="7.jpg" alt="image" />
+          <div class="container">
+            <span class="date">22 Oct 2000</span>
+            <span class="views">14,502 views</span>
+          </div>
+        </div>
+        <div class="cardd">
+          <img src="4.jpg" alt="image" />
+          <div class="container">
+            <span class="date">22 Oct 2000</span>
+            <span class="views">14,502 views</span>
+          </div>
+        </div>
+        <div class="cardd">
+          <img src="5.jpg" alt="image" />
+          <div class="container">
+            <span class="date">22 Oct 2000</span>
+            <span class="views">14,502 views</span>
+          </div>
+        </div>
+        <div class="cardd">
+          <img src="6.jpg" alt="image" />
+          <div class="container">
+            <span class="date">22 Oct 2000</span>
+            <span class="views">14,502 views</span>
+          </div>
+        </div>
+        <div class="cardd">
+          <img src="7.jpg" alt="image" />
+          <div class="container">
+            <span class="date">22 Oct 2000</span>
+            <span class="views">14,502 views</span>
+          </div>
+        </div>
+        <div class="cardd">
+          <img src="8.jpg" alt="image" />
+          <div class="container">
+            <span class="date">22 Oct 2000</span>
+            <span class="views">14,502 views</span>
+          </div>
+        </div>
+        <div class="cardd">
+          <img src="9.jpg" alt="image" />
+          <div class="container">
+            <span class="date">22 Oct 2000</span>
+            <span class="views">14,502 views</span>
+          </div>
+        </div>
+        <div class="cardd">
+          <img src="10.jpg" alt="image" />
+          <div class="container">
+            <span class="date">22 Oct 2000</span>
+            <span class="views">14,502 views</span>
+          </div>
+        </div>
+      </div>
+      <div class="relative">
+        <button class="btn1">Previous</button>
+        <div class="pagination">
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+        </div>
+        <button class="btn1">Next page</button>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="col-1">
+        <h3>About catalog-z</h3>
+        <p>
+          Catalog Z Template is 100% free to download for anyone. You are
+          allowed to download, edit and use this Catalog Z HTML CSS layout for
+          your commercial or non-commercial sites. Please share Catalog Z
+          Template to your friends
+        </p>
+        <br />
+        <p>Copyright 2020</p>
+      </div>
+
+      <div class="col-2">
+        <h3>Our Links</h3>
+        <a href="#">Achievement</a>
+        <a href="#">Support</a>
+        <a href="#">Our Company</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="col-3">
+        <p>Terms of use</p>
+        <p>Privacy Policy</p>
+      </div>
+    </div>
+  </body>
+</html>

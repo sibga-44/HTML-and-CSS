@@ -1,0 +1,214 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0px;
+}
+.header {
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 10px;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header a.catalog-z {
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+}
+.header-right {
+  float: right;
+}
+.card {
+  height: 300px;
+  display: flex;
+  background-color: white;
+  /* border-radius: 10px; */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png);
+}
+.search {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  overflow: hidden;
+  height: 46px;
+  width: 300px;
+  border-radius: 10px;
+  padding-inline: 4px;
+}
+.search > input {
+  border: none;
+  height: 26px;
+  flex: 1;
+}
+.search > input:focus {
+  outline: none !important;
+}
+.form a {
+  color: blue;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.form a:hover {
+  background-color: #ddd;
+  color: black;
+  cursor: pointer;
+}
+.header-right {
+  float: right;
+  color: blue;
+}
+.cardd {
+  transition: 0.3s;
+  width: 250px;
+  height: 220px;
+  align-items: center;
+  margin: 10px;
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cardd > img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.cardd:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.date {
+  color: gray;
+  font-size: 10px;
+}
+
+.views {
+  color: gray;
+  font-size: 10px;
+  /* position: absolute; */
+  /* bottom: 5px; */
+  /* right: 5px; */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.relative {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px; */
+}
+.btn1 {
+  border: none !important;
+  /* margin-right: 490px; */
+  background-color: rgb(15, 126, 146);
+  color: white;
+  padding: 10px;
+}
+.btn1:hover {
+  background-color: #ddd;
+  color: black;
+  cursor: pointer;
+}
+.btn2 {
+  background-color: rgb(15, 126, 146);
+  color: white;
+  border: none !important;
+  padding: 10px;
+}
+.pagination a {
+  color: white;
+  background-color: gray;
+  padding: 10px;
+  text-decoration: none;
+  /* align-content: center; */
+}
+.pagination a:hover {
+  background-color: #ddd;
+  color: black;
+  cursor: pointer;
+}
+.btn2:hover {
+  background-color: #ddd;
+  color: black;
+  cursor: pointer;
+}
+.footer {
+  /* width: 70%; */
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  /* gap: 50px; */
+  background-color: rgb(0, 0, 0, 0.1);
+}
+.col-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25%;
+}
+.col-2 {
+  /* flex-grow: 2; */
+}
+.footer h3 {
+  font-weight: 700;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  color: rgb(3, 100, 100);
+}
+.footer p {
+  color: gray;
+  text-align: justify;
+}
+.col-2 a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: gray;
+}
+.header .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    gap: 20px;
+  }
+  .col-1 {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .col-2 {
+    text-align: center;
+  }
+  .col-3 > p {
+    text-align: center;
+  }
+}
